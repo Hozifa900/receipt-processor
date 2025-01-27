@@ -5,8 +5,8 @@ export interface Item {
 
 export interface Receipt {
   retailer: string;
-  purchaseDate: string; // e.g. "2022-01-02"
-  purchaseTime: string; // e.g. "13:13" (24-hour format)
+  purchaseDate: string;
+  purchaseTime: string;
   items: Item[];
-  total: string; // e.g. "1.25"
+  total: string;
 }

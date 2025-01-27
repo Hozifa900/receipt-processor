@@ -1,5 +1,3 @@
-// src/controllers/receiptController.ts
-
 import { Request, Response } from "express";
 import { Receipt } from "../models/receipt";
 import { processReceipt, getReceiptPoints } from "../services/receiptService";
@@ -26,7 +24,7 @@ export async function processReceiptController(req: Request, res: Response) {
 
 export async function getReceiptPointsController(req: Request, res: Response) {
   try {
-    const { id } = req.params; // e.g. /receipts/abc123/points -> id = "abc123"
+    const { id } = req.params;
     const points = getReceiptPoints(id);
 
     if (points === null) {
