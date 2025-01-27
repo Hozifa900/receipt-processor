@@ -1,0 +1,48 @@
+# Node.js specific
+node_modules/
+npm-debug.log
+yarn-error.log
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# IDE specific
+.vscode/
+.idea/
+
+# Optional npm cache directory
+.npm/
+
+# Build directories
+build/
+dist/
+coverage/
+
+# Temporary files
+tmp/
+temp/
+
+# Testing
+.jest/
+.nyc_output/
+coverage/
+
+# SASS cache
+.sass-cache/
+
+# MongoDB local storage
+*.lock
+dump/
